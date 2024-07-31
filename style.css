@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --background-image:url(backgr.jpg);
+    --background-image:url(assets/backgr.jpg);
     --cor-primaria: rgb(102, 2, 102);
-    --cor-secundaria: rgb(198, 111, 209);
+    --cor-secundaria: rgb(255, 102, 0);
     --cor-terciaria:rgb(56, 3, 56);
     --cor-hover:  rgb(198, 111, 209);
     --fonte-primaria: '"Nunito Sans"', sans-serif;
@@ -62,10 +62,11 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    padding: 35px;
 }
 
 .apre__links__sites:hover{
-    background:  var(--cor-secundaria);
+    background:  var(--cor-hover);
 }
 
 .apre__links__sites{
