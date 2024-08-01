@@ -76,13 +76,14 @@ a{
     gap:16px;
     border-width:1,5rem;
     border-style:solid;
+    background-color:var(--cor-primaria);
     text-align: center;
     font-size: 1,6rem;
     padding: 21,5px 0;
     text-decoration: none;
     font-family:"Nunito Sans", sans-serif;
     font-style:normal;
-    color:var(--cor-primaria); 
+    color:white; 
 }
 .apre__imagem{
 width: 45%;
